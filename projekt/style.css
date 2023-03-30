@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
+body {
+    background-color: rgba(0, 255, 170, .5);
+}
+
+header {
+    background-color: orange;
+}
+
+h2 { 
+   color: tomato; 
+   font-family: 'Pacifico', cursive;
+}
+
+h1 {
+    color: blueviolet;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 5px;
+}
+
+h1:hover {
+    color: red;
+}
+
+img {
+    opacity: .6;
+}
+
+img:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.hero__description {
+    font-size: 16px;
+    color: red;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    line-height: 120%;
+}
+
+#articles {
+    background-color: antiquewhite;
+}
+
+.hero {
+    background-color: azure;
+}
+
